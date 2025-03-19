@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ให้เช่าอุปกรณ์ถ่ายรูป/วิดีโอ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=rocket_launch" />
+</head>
+
+<body class="font-mono bg-gray-100 ">
+
+<!-- Header -->
+<header class="bg-white shadow-md py-4 px-6 flex flex-wrap justify-between items-center">
+    <div class="text-3xl font-bold text-gray-700 flex items-center">
+        <span class="material-icons text-3xl mr-2 text-gray-600">monochrome_photos</span>
+       
+        <a href="index.html" class="hover:text-gray-600">COM ON</a>
+    </div>
+    <div class="flex items-center space-x-4">
+        <div class="relative">
+            <span class="material-icons absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500">search</span>
+            <input type="text" placeholder="ค้นหาข้อมูล..." 
+                   class="pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 w-60">
+        </div>
+        <nav class="hidden md:flex space-x-6 text-gray-600">
+            <a href="howto.html" class="hover:text-black">วิธีเช่า</a>
+            <a href="contact.html" class="hover:text-black">ติดต่อเรา</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="relative">
+                <span class="material-icons text-3xl text-gray-600 hover:text-black">shopping_cart</span>
+            </a>
+            <a href="login.html" class="flex items-center space-x-2 hover:text-black">
+                <span class="material-icons text-3xl text-gray-600">account_circle</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative h-screen bg-cover bg-center bg-opacity-20" style="background-image: url('https://i.pinimg.com/736x/7f/07/77/7f07770020ed44766d2981d45bd24f19.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center px-6">
+        <h1 class="text-3xl font-bold">-Photo/video equipment for rent-</h1>
+        <p class="mt-2">บริการเช่าอุปกรณ์ถ่ายรูป ถ่ายวีดีโอครบวงจร ทั้งกล้องถ่ายรูป เช่าเลนส์ เช่าGoPro</p>
+        <p class="mt-1 text-red-300 font-semibold">*** กรุณาจองล่วงหน้าผ่านเว็บไซต์เท่านั้น ***</p><br>
+        <div class="mt-4 flex space-x-4">
+            <button class="bg-gray-600 px-6 py-2 rounded-lg hover:bg-gray-300 transition">เช่าเลนส์</button>
+            <button class="bg-gray-300 px-6 py-2 rounded-lg hover:bg-gray-700 transition text-black">เช่ากล้อง</button>
+        </div>
+    </div>
+</section>
+
+<!-- Product Categories -->
+<section class="container mx-auto px-6 py-10 bg-gray-200">
+    <div class="grid grid-cols-3 gap-8 max-w-screen-lg mx-auto">
+        <!-- Card -->
+        <div class="bg-white p-4 shadow-md rounded-lg text-center hover:shadow-2xl transition transform hover:scale-105">
+            <a href="brand.php?brand=Sony" class="hover:text-gray-500">
+                <img src="https://i.pinimg.com/736x/79/1e/f5/791ef5e3f34d2e45d15ea6c5c23881ae.jpg" class="h-14 mx-auto mb-3">
+                <p class="font-medium">เช่ากล้อง Mirrorless</p>
+            </a>
+        </div>
+
+        <div class="bg-white p-4 shadow-md rounded-lg text-center hover:shadow-2xl transition transform hover:scale-105">
+            <a href="brand.php?brand=Gopro" class="hover:text-gray-500">
+                <img src="https://inwfile.com/s-dh/1hpabm.jpg" class="h-14 mx-auto mb-3">
+                <p class="font-medium">ให้เช่ากล้อง GoPro และอุปกรณ์</p>
+            </a>
+        </div>
+
+        <div class="bg-white p-4 shadow-md rounded-lg text-center hover:shadow-2xl transition transform hover:scale-105">
+            <a href="brand.php?brand=Cannon" class="hover:text-gray-500">
+                <img src="https://www.gcs.co.th/sites/11037/files/u/articles/Origin%20of%20the%20Logo/logo_01.png" class="h-14 mx-auto mb-3">
+                <p class="font-medium">ให้เช่ากล้องและเลนส์ Canon</p>
+            </a>
+        </div>
+
+        <div class="bg-white p-4 shadow-md rounded-lg text-center hover:shadow-2xl transition transform hover:scale-105">
+            <a href="brand.php?brand=Nikon" class="hover:text-gray-500">
+                <img src="https://s.isanook.com/hi/0/ud/242/1210292/nikon-logo.jpg" class="h-14 mx-auto mb-3">
+                <p class="font-medium">ให้เช่ากล้องและอุปกรณ์ Nikon</p>
+            </a>
+        </div>
+
+        <div class="bg-white p-4 shadow-md rounded-lg text-center hover:shadow-2xl transition transform hover:scale-105">
+            <a href="brand.php?brand=Fujifilm" class="hover:text-gray-500">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Co4JQ0UZfLTJ3i9AR4ZGgkm8Q2B1mcrLQ7qz23su5ETDuzmz_M0FY1M7omVL8CP_sNk&usqp=CAU" class="h-14 mx-auto mb-3">
+                <p class="font-medium">ให้เช่ากล้องและเลนส์ Fujifilm</p>
+            </a>
+        </div>
+
+        <div class="bg-white p-4 shadow-md rounded-lg text-center hover:shadow-2xl transition transform hover:scale-105">
+            <a href="brand.php?brand=Panasonic" class="hover:text-gray-500">
+                <img src="https://logodix.com/logo/2081967.jpg" class="h-14 mx-auto mb-3">
+                <p class="font-medium">ให้เช่ากล้องถ่ายรูป Mirrorless เลนส์ และอุปกรณ์ถ่ายรูป panasonic</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-10  font-mono">
+    <div class="container mx-auto px-6 flex justify-center">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center md:text-left">
+
+            
+
+            <!-- CONTACT -->
+            <div>
+                
+                <ul class="space-y-3 text-sm">
+                    <li> Call : 082-343-8793</li>
+                    <li> ID Line : camon8793</li>
+                    
+                    
+                    
+                </ul>
+            </div>
+
+            <div>
+                
+                <ul class="space-y-3 text-sm">
+                    
+                    
+                    <li> สาขาอำเภอเมืองสุราษฎร์ธานี</li>
+                    <li> เปิดทุกวัน 10.00-20.00</li>
+                    
+                    
+                </ul>
+            </div>
+
+           
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
